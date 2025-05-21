@@ -3,11 +3,11 @@ import "./Home.css";
 function Home() {
   return (
     <>
-      <section class="home">
-        <div class="home-container">
+      <section className="home">
+        <div className="home-container">
           <h2>WELCOME TO OB request page</h2>
 
-          <div class="home-container-text">
+          <div className="home-container-text">
             <h3></h3>
             <p>
               Welcome to the OB request page. Here you can find all the

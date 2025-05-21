@@ -3,7 +3,7 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <>
-      <header classname="header">
+      <header className="header">
         <h1>
           <a href="">Ob Request</a>
         </h1>
