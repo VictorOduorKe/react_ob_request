@@ -1,37 +1,33 @@
-.register{
+.contact{
     width:80%;
+    background:var(--header-color);
     display:flex;
     flex-direction:column;
+    margin:20px auto;
     align-items:center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin:190px auto;
-    justify-content:center;
+    
 }
-.register label{
+.contact label{
     color:white;
 }
-.register h2{
-    color:var(--header-color);
+.contact h2{
+    color:white;
     padding:20px;
 }
-.register form{
-    background:var(--header-color);
+.contact form{
     display:flex;
     flex-direction:column;
     width:500px;
     gap:10px;
-    padding:10px;
-    border-radius:10px;
 }
 
-.register form input{
+.contact form input{
     padding:10px;
     border:0;
     outline:none;
     border-radius:10px;
 }
-.register form textarea{
+.contact form textarea{
     padding:10px;
     border:0;
     outline:none;
@@ -39,20 +35,19 @@
     max-width:100%;
     max-height:200px;
 }
-.register form button{
+.contact form button{
     width:100%;
     padding:10px;
     color:white;
     background:blue;
     border:0;
     margin-bottom:20px;
-    margin-top:20px;
     border-radius:10px;
     cursor:pointer;
     font-size:var(--font-size_2);
     transition:all 0.3s ease-in-out;
 }
-.register form button:hover{
+.contact form button:hover{
     border:1px solid white;
     box-shadow: inset 0 0 10px white;
 }
